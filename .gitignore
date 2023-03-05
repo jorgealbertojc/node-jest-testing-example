@@ -1,0 +1,12 @@
+
+
+
+# debugging tools
+.vscode
+
+# logging files
+*.log
+
+# dependencies and vendoring
+node_modules
+vendor
