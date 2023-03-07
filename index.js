@@ -1,20 +1,10 @@
+const express = require( 'express' );
 
+const indexRouter = express.Router();
 
+indexRouter.get( '/endpoint', ( _, res ) => {
 
-( () => {
+    res.status( 200 ).json( { module: true } )
+} );
 
-
-
-    const router = require( `express` ).Router()
-
-
-
-    router.get( `/pipeline`, ( _req, _res ) => {
-
-        _res.status(200).json( { ok: true } )
-    } )
-
-
-
-    module.exports = router
-} )()
+module.exports = indexRouter;

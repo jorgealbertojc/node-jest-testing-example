@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config $(pwd)/jest.config.js"
+    "test": "$(pwd)/node_modules/.bin/jest --config $(pwd)/jest.config.js"
   },
   "author": "",
   "license": "ISC",
